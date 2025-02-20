@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '21134445'))
 API_HASH = environ.get('API_HASH', '231c18ea7273824491d6bf05425ab74e')
-BOT_TOKEN = environ.get('BOT_TOKEN', '8102643762:AAFU6-G6b16N6JAdhkH_hLzw8IxFYfuhSJE')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7561754284:AAG2c2BCwwwIY-FfP7tIDPb48V1Hn5iyJAc')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7763229951').split()]
@@ -25,9 +25,7 @@ MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/MOVIE_SEARCHING
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002189849843').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://bornhyper1:
-Bornhyper5911@cluster0.gmvpm
-.mongodb.net/?retryWrites=true&w=
+DATABASE_URI = environ.get('DATABASE_URI',  "mongodb+srv://bornhyper1:Bornhyper5911@cluster0.gmvpm.mongodb.net/?retryWrites=true&w=
 majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'My_Tg_files')
