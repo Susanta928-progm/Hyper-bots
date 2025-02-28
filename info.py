@@ -19,7 +19,7 @@ def is_enabled(value, default):
 SESSION = environ.get("SESSION", "𝚉𝙰𝙲𝙺-𝚁𝙾𝚇-Bot")
 API_ID = int(environ.get("API_ID", "21134445"))     #YOUR API ID
 API_HASH = environ.get("API_HASH", "231c18ea7273824491d6bf05425ab74e")      #REPLACE WITH YOUR API HASH
-BOT_TOKEN = environ.get("BOT_TOKEN", "7561754284:AAG2c2BCwwwIY-FfP7tIDPb48V1Hn5iyJAc")        # ADD YOUR BOT TOKEN
+BOT_TOKEN = environ.get("BOT_TOKEN", "")        # ADD YOUR BOT TOKEN
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------
 ADMINS = [
@@ -35,10 +35,7 @@ CHANNELS = [
 ]
 # ---------------------------------------------------------------
 # ---------------------------------------------------------------F
-DATABASE_URI = environ.get(
-    "DATABASE_URI",
-    "mongodb+srv://bornhyper1:Bornhyper5911@cluster0.gmvpm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
-)
+DATABASE_URI = environ.get("DATABASE_URI", "")
 DATABASE_NAME = environ.get("DATABASE_NAME", "Cluster0")
 COLLECTION_NAME = environ.get("COLLECTION_NAME", "Telegram_files")
 # ---------------------------------------------------------------
